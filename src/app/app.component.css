@@ -1,0 +1,6 @@
+#header-toolbar{
+    margin:0px;
+}
+.toolbar-spacer{
+    flex: 1 1 auto;
+}

@@ -1,0 +1,17 @@
+<p>show-weather works!</p>
+
+<h2>
+  Weather Today
+</h2>
+<p></p>
+<div *ngIf="WeatherData.isDay">
+Its Sunny Right Now
+</div>
+<div *ngIf="!WeatherData.isDay">
+    Its Sunny Right Now
+</div>
+<div style="color:black;">{{WeatherData.temp_celsius}}</div>
+
+
+
+https://api.openweathermap.org/data/2.5/weather?q=jaipur&appid=ff1bc4683fc7325e9c57e586c20cc03e
